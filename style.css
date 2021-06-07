@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#traveltous .row #serbia {
+    margin-left: 20%;
+}
+#traveltous .row #capitalcity{
+    margin-left: 18%;
+}
+#traveltous .row #capitalcity1{
+    margin-left: 20%;
+}
+#traveltous .row #belg{
+    margin-left: 20%;
+}
+#traveltous .row #mntg{
+    margin-left: 16%;
+}
+#traveltous .row #podg{
+    margin-left: 21%;
+}
+.container-fluid .navbar{
+    max-width: 100%;
+}
+ .navbar .navbar-brand:hover, .collapse .navbar-nav .nav-item:hover{
+    color:  rgb(255, 255, 255);;
+} 
+main{
+    height: 100vh;
+}
+li{
+    list-style:none;
+}
+#bgimg{
+    position: absolute;
+    height: 100%;
+    max-width: 100%;
+    background: url(./assets/images/bgimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.ftr section span{
+    color: #fff;
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+
+    
+}
+
+#bgimg span{
+color: #fff;
+font-size: 3vw;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+text-transform: uppercase;
+padding: 10px;
+position: absolute;
+top: 50%;
+
+left: 50%;
+transform: translate(-50%,-50%);
+}
+#serbia img{
+border-top: 5px solid blue;
+border-right: 5px solid blue;
+border-bottom: 5px solid khaki;
+border-left: 5px solid khaki;
+height: 300px;
+
+}
+#serbia span{
+    font-size: 4vw;
+font-family: Arial, Helvetica, sans-serif;
+}
+#serbias #btn{
+    background-color: #fff; 
+  border: none;
+  color: white;
+  padding: 15px 38px;
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+
+  border-radius: 10%;
+  color: blue;
+  border: 5px solid blue;
+  
+}
+#serbias #btn:hover{
+    background-color: blue;
+    color: whitesmoke;
+    border: 5px solid whitesmoke;
+}
+#serbia h4{
+    text-align: center;
+    line-height: 34px;
+    color: #fff;
+    float: right;
+}
+ 
+#explore .images #img2{
+    height: 380px;
+    width: 100%;
+}
+#mntg #img{
+
+    border-top: 5px solid darkblue;
+    border-left: 5px solid darkblue;
+    border-right: 5px solid khaki;
+    border-bottom: 7px solid khaki;
+}
+
+ @media only screen and (max-width: 1024px){
+    #explore .images #img2{
+        height: 220px;
+    }
+}
+
+#explore .thumbnail img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0;
+}
+
+@media only screen and (min-width: 768px){ 
+
+#explore .thumbnail .images #img2{
+
+    margin-top: -30px;
+    }
+}
+
+
+ @media only screen and (max-width: 768px){
+    #data{
+        /* position: relative; */
+    margin-left: 200px;
+    }
+    #explore .thumbnail img{
+        box-shadow: none;
+    }
+    #mntg .row span{
+        margin-top: 300px;
+    }
+    #mntg #img{
+        margin-top: -800px;
+    }
+    .container-fluid h4{
+        display: none;
+    }
+    #serbias #btn{
+        margin: 0 10px 10px 30px;
+    }
+    #traveltous .row #serbia {
+        margin-left: 40%;
+    }
+    #traveltous .row #capitalcity{
+        margin-left: 35%;
+    }
+    #traveltous .row #belg{
+        margin-left: 38%;
+    }
+    #traveltous .row #mntg{
+        margin-left: 32%;
+    }
+    #traveltous .row #capitalcity1{
+        margin-left: 35%;
+    }
+    #traveltous .row #podg{
+        margin-left: 36%;
+    }
+} 
+#bgimg{
+    
+    border-top:  white;
+    border-bottom: white;
+    
+    border-style: solid;
+}
+#traveltous{
+    background-color: #00b3b3;
+}
+
+@media only screen and (max-width: 998px) and (min-width: 770px){
+    #fttr{
+        margin-left: -150px;
+    
+    }
+}
+@media only screen and (max-width: 768px) {
+    .navbar-toggler {
+        margin-right: 600px;
+        margin-top: -45px;
+        
+    }
+    #footer .container .row .col-md-6{
+
+        display: flex;
+        justify-content: start;
+        /* align-items: center; */
+      }
+    .navbar .navbar-brand{
+        margin-left: 70px;
+    }
+    #cnt img{ 
+        margin-top: 200px;
+    }
+    #cnt h1{
+        margin-top: -450px;
+    }
+    #cnt #cnt2 h1{
+        margin-top: 0px;
+    }
+    #cnt #cnt2 img{
+        margin-top: 0px;
+    }
+    #footer .container .row .col-md-6{
+
+        display:flex;
+       justify-content:flex-start;
+   
+
+     }
+  }
+  #footer{
+  
+    background-color: khaki;
+    width: 100%;
+  
+  }
+  #li
+  {
+      list-style: none;
+  }
+  .text-blue{
+    color: cornflowerblue;
+  }
